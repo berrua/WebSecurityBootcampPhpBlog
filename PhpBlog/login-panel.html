@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+<title>Giriş</title>
+    
+<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/fonts/flaticon/flaticon.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/mobile.css">
+<script src="https://kit.fontawesome.com/1cfea3ca12.js" crossorigin="anonymous"></script> 
+
+    
+<style>
+body {
+  font-family: 'Poppins', sans-serif;
+}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.title {
+    text-decoration: none;
+    color: #333;   
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding: 2% 3%;        
+}
+    
+    
+.icon {
+  padding: 10px;
+  color: #0b4a9f;
+  min-width: 60px;
+  text-align: center;
+}
+
+.input-field {
+    color: #eee;
+    background-color: transparent; 
+    border: 2px solid #bfbfbf;
+    border-color: #555;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: 400;
+    height: 42px;
+    width: 380px;
+}
+
+.input-field:focus {
+  border-color: #9ad1ce;
+}
+
+.btn {
+    color: #fff;
+    background-color: #0b4a9f;
+    box-shadow: 0 10px 10px -8px rgb(0 0 0 / 50%);
+    font-size: 1rem;
+    border-radius: 30px;
+    border: 2px solid #0b4a9f;
+    padding: 8px 30px;
+}
+
+.btn:hover {
+    background-color: #9ad1ce;
+    color: #fff;
+}
+
+.image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px; 
+        margin-top: 6px;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+</style>
+</head>
+
+<body>    
+        <header>
+        <div class="container">
+            <div class="header-wrapper mt-5">
+                <div class="row header-content">
+                    <div class="header-title col-md-8">
+                        <a href="index.html">Siber Zihin</a>
+                    </div>
+                    <div class="header-menu col-md-4">
+                        <ul>
+                            <li>
+                                <a href="index.html" style="opacity: 100%;">Ana Sayfa</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Makaleler</a>
+                            </li>
+                            <li>
+                                <a href="about.html">Hakkımızda</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">İletişim</a>
+                            </li>
+                            <li>
+                              <a href="login-panel.html"><i class="fa-solid fa-right-to-bracket icon" style="color: #9ad1ce;"></i></a>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="image-container">
+      <img src="assets/img/remove-icon.png" alt="Image description">
+    </div>
+
+<form action="/login-panel.html" method="post" style="max-width:500px;margin:auto">
+    <div style="margin-top: 10px;"></div>
+  <div class="title">
+    Giriş
+  </div>
+    <div style="margin-top: 30px;"></div>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Kullanıcı Adı" name="username">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="E-posta" name="email">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Parola" name="psw">
+  </div>
+
+  <div style="text-align: center;">
+    <button type="submit" class="btn">Giriş Yap</button>
+  </div>
+</form>
+    
+    <footer>
+        <div class="container-fluid mt-5"></div>
+            <hr>
+        </div>
+        <div class="container text-center mt-5 mb-5" >
+            <div class="copyright">
+                © 2023 Tüm Hakları Saklıdır.
+            </div>   
+        </div>
+        
+    </footer>
+
+</body>
+</html>
